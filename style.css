@@ -54,7 +54,7 @@ body {
 
 .banner{
     height: calc(100vh - 130px);
-    background-image: url(../projeto_Super/capa.jpg);
+    background-image: url(capa.jpg);
 }
 
 .secao-sinopse{
