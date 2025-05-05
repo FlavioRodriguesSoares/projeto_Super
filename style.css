@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+    /* Alvo geral */
+::-webkit-scrollbar {
+  width: 8px; /* largura da barra vertical */
+  height: 8px; /* altura da barra horizontal */
+  
+}
+
+/* Trilha da barra */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Parte móvel da barra */
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+/* Quando estiver passando o mouse */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.topo{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #040206;
+    font-size: 12px;
+
+}
+
+.topo a{
+    margin: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.banner{
+    height: calc(100vh - 130px);
+    background-image: url(../projeto_Super/capa.jpg);
+}
+
+.secao-sinopse{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.secao-sinopse h1{
+    font-size: 22px;
+    margin: 15px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.secao-sinopse h2{
+    margin: 15px;
+    font-weight: normal;
+    font-size: 18px;
+
+}
+
+.secao-sinopse p{
+    line-height: 25px;
+    text-align: left;
+    color: #646f73;
+    font-size: 12px;
+}
+
+.secao-disponibilidade{
+    width: 100%;
+    background-color: #302136;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.secao-disponibilidade h2{
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.secao-disponibilidade img{
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0px 0px 5px 5px #ffffff;
+}
+
+.secao-disponibilidade p{
+    max-width: 700px;
+    text-align: left;
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 25px;
+    flex-direction: column;
+}
+
+.secao-canais{
+    width: 100%;
+
+
+}
+.secao-canais h2{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+
+.temporada_itens{
+    max-width: 700px;
+    border: 2px solid #f0f0f0;
+    padding: 10px;
+    margin: 30px auto;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 5px 5px #eae7e7;
+    border-radius: 5px;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.secao-imagens{
+    width: 100%;
+    background-color: #302136;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.fotos{
+    max-width: 700px;
+    display: flex;
+    overflow: scroll;
+    margin: 0 auto;
+    overflow-y: hidden;
+}
+
+.secao-imagens h2{
+    color:#ffffff;
+    text-align: center;
+    padding: 30px;
+    font-size: 15px;
+
+}
+
+.secao-imagens img{
+    width: 250px;
+    height: 150px;
+    box-shadow: 0 0 4px 4px #938b96;
+    margin-right: 30px;
+    margin: 20px;
+    
+}
+
+.abaixo-imagens{
+    width: 100%;
+    background-color: #302136;
+    margin: 0 auto;
+    padding-bottom: 20px;
+
+}
+
+.redirecionar_link{
+    max-width: 700px;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #0e09c0;
+    
+}
+.redirecionar_link a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer{
+    margin-top: auto;
+}
+
+.rodape{
+    background-color: #302136;
+    box-shadow: 0 -4px 4px -1px #665b6b;
+    padding: 10px;
+}
+
+.rodape p{
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 10px;
+}
+
